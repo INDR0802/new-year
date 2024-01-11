@@ -7,7 +7,7 @@
 header {
     background-image: url(new-year-new-me/images/banner/banner3.png);
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 100%;
     margin: 0px auto;
     height: 800px;
 
@@ -75,7 +75,7 @@ main {
     margin: 0px auto;
     background-position-x: 200px;
     /* height: 898px; */
-    width: 1600px;
+    width: 100%;
     flex-shrink: 0;
 }
 
@@ -143,8 +143,8 @@ main {
 
 /* banner-section */
 .banner {
-    background-image: url(new-year-new-me/images/watch.png);
-    background-image: url(new-year-new-me/images/gradient1.png);
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(new-year-new-me/images/watch.png);
+    border-radius: 8px;
     background-repeat: no-repeat, no-repeat;
     width: 1140px;
     height: 300px;
@@ -176,7 +176,7 @@ button {
 .footer {
     display: flex;
     margin: 0px auto;
-    width: 1600px;
+    /* width: 100%; */
     margin-top: 100px;
     background: #151414;
     gap: 90px;
